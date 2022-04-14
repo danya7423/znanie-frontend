@@ -1,0 +1,49 @@
+{
+  "name": "mini-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "homepage": ".",
+  "scripts": {
+    "start": "cross-env PORT=10888 HTTPS=true react-scripts start",
+    "tunnel": "vk-tunnel --insecure=1 --http-protocol=https --ws-protocol=wss --host=localhost --port=10888",
+    "build": "cross-env GENERATE_SOURCEMAP=false react-scripts build"
+  },
+  "devDependencies": {
+    "@jest/console": "^27.3.1",
+    "@vkontakte/vkui-connect": "^1.5.4",
+    "cross-env": "^7.0.3",
+    "react-hot-loader": "^4.13.0",
+    "react-scripts": "^4.0.3",
+    "ret": "^0.4.0"
+  },
+  "dependencies": {
+    "@vkontakte/icons": "^1.131.0",
+    "@vkontakte/vk-bridge": "^2.4.8",
+    "@vkontakte/vkjs": "^0.22.1",
+    "@vkontakte/vkui": "^4.19.0",
+    "axios": "^0.21.4",
+    "canvas": "^2.8.0",
+    "dom-parser": "^0.1.6",
+    "fast-xml-parser": "^3.21.0",
+    "framer-motion": "^4.1.17",
+    "immanuel": "^2.0.0",
+    "moment": "^2.29.1",
+    "puppeteer": "^10.4.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-xml-parser": "^1.1.8",
+    "xml2js": "^0.4.23"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+@font-face {
+    font-family: "Favorit Pro";
+    src: url(./fonts/FavoritPro-Medium.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "Favorit Pro Regular";
+    src: url(./fonts/FavoritPro-Regular.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "Favorit Pro Light";
+    src: url(./fonts/FavoritPro-Light.otf) format("opentype");
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100vw;
+    margin-top: 47px;
+}
+
+.endBox1 {
+    background: #655DFB;
+    border-radius: 20px;
+    margin-top: 34px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.endBox1 img {
+    margin-bottom: 20px;
+}
+
+.endBox1 .title {
+    font-family: 'Favorit Pro Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.endBox2 {
+    background: #655DFB;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding-top: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.endBox2 .title {
+    font-family: 'Favorit Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #FDFDFD;
+}
+
+.endBox2 .description {
+    margin-top: 10px;
+    font-family: 'Favorit Pro Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.prizesText {
+    font-family: 'Favorit Pro Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    /* identical to box height, or 129% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.buttonEnd {
+
+    background: #FFFFFF;
+    border-radius: 12px;
+    font-family: 'Favorit Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+
+    color: #655DFB;
+    padding: 13.5px 110px;
+    margin-right: 8px;
+    margin-left: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 24px;
+    width: calc(100% - 220px - 16px);
+}

@@ -1,0 +1,46 @@
+.desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    margin-top: 35px;
+    margin-right: 16px;
+    margin-left: 16px;
+    margin-bottom: 35px;
+}
+
+.descImg {
+    margin-bottom: 40px;
+}
+
+.descDescription {
+    font-family: 'Favorit Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.3px;
+
+    color: #655DFB;
+}
+
+.descButton {
+    background: #655DFB;
+    border-radius: 12px;
+    font-family: 'Favorit Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+    padding: 13.5px 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}

@@ -1,0 +1,172 @@
+@font-face {
+  font-family: "Favorit Pro";
+  src: url(./fonts/FavoritPro-Medium.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Favorit Pro Regular";
+  src: url(./fonts/FavoritPro-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Favorit Pro Light";
+  src: url(./fonts/FavoritPro-Light.otf) format("opentype");
+}
+
+.home {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.homeHeader {
+  font-family: 'Favorit Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #655DFC;
+
+  margin-top: 5px;
+}
+
+.homeDescription {
+  font-family: 'Favorit Pro Regular';
+  font-size: 17px;
+  line-height: 22px;
+
+  color: #655DFC;
+
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.button {
+
+  background: #655DFB;
+  border-radius: 12px;
+  font-family: 'Favorit Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 22px;
+  /* identical to box height, or 129% */
+
+  letter-spacing: -0.408px;
+
+  color: #FFFFFF;
+  padding: 13.5px 110px;
+  margin-right: 50px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.cardBox {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: end;
+}
+
+.cardBox .back {
+  background: #655DFB;
+  border-radius: 12px;
+  width: 40px;
+  height: 50px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.cardBox .next {
+  background: #655DFB;
+  border-radius: 12px;
+  width: 40px;
+  height: 50px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10px;
+
+}
+
+
+.cardBox .box {
+  background: #655DFB;
+  border-radius: 12px;
+  width: 175px;
+  height: calc(233px - 18px);
+  padding-top: 18px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardBox .box .boxHeader {
+  font-family: 'Favorit Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+
+  text-align: center;
+  letter-spacing: 0.38px;
+
+  color: #FFFFFF;
+  margin-bottom: 33px;
+}
+
+.vkuiFixedLayout--bottom {
+  bottom: 13% !important;
+}
+
+.vkuiCheckbox__content {
+  font-family: 'Favorit Pro Light' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  line-height: 20px !important;
+  color: #99A2AD !important;
+}
+
+.vkuiCheckbox__icon--on {
+  color: #B8C1CC !important;
+}
+
+@media (max-height:700px) {
+  .vkuiFixedLayout--bottom {
+    bottom: 5% !important;
+  }
+}
+
+@media (max-height:570px) {
+
+  .user img {
+    display: none;
+  }
+}

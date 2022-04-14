@@ -1,0 +1,247 @@
+@font-face {
+    font-family: "Favorit Pro";
+    src: url(./fonts/FavoritPro-Medium.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "Favorit Pro Regular";
+    src: url(./fonts/FavoritPro-Regular.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "Favorit Pro Light";
+    src: url(./fonts/FavoritPro-Light.otf) format("opentype");
+}
+
+.card {
+    background: #655DFB;
+    border-radius: 20px;
+    margin-right: 8px;
+    margin-left: 8px;
+    padding: 31px 16px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.card .cardText {
+    margin-top: 27px;
+    font-family: 'Favorit Pro Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #FDFDFD;
+}
+
+@media (min-height:700px) {
+
+    .select {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .select .true {
+        width: 110px;
+        height: 270px;
+
+        padding-right: 17.5px;
+        padding-left: 17.5px;
+
+        background: linear-gradient(180deg, #67C8FF 0%, #48ACE4 100%);
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .select .true .trueText {
+        font-family: 'Favorit Pro';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 25px;
+
+        text-align: center;
+
+        color: #FFFFFF;
+
+    }
+
+    .select .false .falseText {
+        font-family: 'Favorit Pro';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 25px;
+
+        text-align: center;
+
+        color: #FBFBFB;
+    }
+
+    .select .false {
+        width: 110px;
+        height: 270px;
+
+        background: linear-gradient(180deg, #E18FF1 0%, #C15DD3 100%);
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+
+        padding-right: 28px;
+        padding-left: 28px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .select .center {
+        font-family: 'Favorit Pro Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 20px;
+        text-align: center;
+
+        color: #655DFB;
+
+    }
+
+    .select .center img {
+        margin-bottom: 7px;
+    }
+
+    .select .true img {
+        margin-bottom: 26px;
+    }
+
+    .select .false img {
+        margin-bottom: 26px;
+    }
+}
+
+@media (max-height:700px) {
+    .select {
+        display: flex;
+    }
+
+    .select .true .trueText {
+        font-family: 'Favorit Pro';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 25px;
+
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .select .true {
+        width: calc(33% - 12px);
+        height: 120px;
+        margin-left: 12px;
+        background: linear-gradient(180deg, #67C8FF 0%, #48ACE4 100%);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 12px;
+    }
+
+    .select .false {
+        width: calc(33% - 12px);
+        height: 120px;
+        margin-left: 12px;
+        background: linear-gradient(180deg, #E18FF1 0%, #C15DD3 100%);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 12px;
+    }
+
+    .select .center {
+        width: calc(33% - 12px);
+        box-sizing: border-box;
+        color: #655DFB;
+        border-radius: 20px;
+    }
+
+    .select .false .falseText {
+        font-family: 'Favorit Pro';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 25px;
+
+        text-align: center;
+
+        color: #FBFBFB;
+
+    }
+}
+
+.gameHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-bottom: 40px;
+}
+
+.gameHeader .left {
+    border: 1px solid #655DFB;
+    box-sizing: border-box;
+    border-radius: 12px;
+    width: 75px;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: 'Favorit Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+
+    text-align: center;
+    letter-spacing: -0.408px;
+
+    color: #655DFB;
+}
+
+.gameHeader .right {
+    width: 118px;
+    height: 50px;
+    float: right;
+
+    border: 1px solid #655DFB;
+    box-sizing: border-box;
+    border-radius: 12px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: 'Favorit Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+
+    text-align: center;
+
+    color: #655DFB;
+}
